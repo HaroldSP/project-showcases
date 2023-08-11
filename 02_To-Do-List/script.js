@@ -1,8 +1,4 @@
-/* eslint-disable prefer-const */
-/* eslint-disable semi */
-/* eslint-disable no-unused-vars */
-
-'strict';
+'use strict';
 
 const todoControl = document.querySelector('.todo-control');
 const headerInput = document.querySelector('.header-input');
@@ -20,10 +16,10 @@ const render = function () {
     const li = document.createElement('li');
     li.classList.add('todo-item');
     li.innerHTML = '<span class="text-todo">' + item.text + '</span>' +
-    '<div class="todo-buttons">' +
-    '<button class="todo-remove"></button>' +
-    '<button class="todo-complete"></button>' +
-    '</div>'
+      '<div class="todo-buttons">' +
+      '<button class="todo-remove"></button>' +
+      '<button class="todo-complete"></button>' +
+      '</div>'
 
     if (item.completed) {
       todoCompleted.append(li);
