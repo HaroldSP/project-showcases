@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./js/script.js" defer></script>
+    <title>Constructor test</title>
+  </head>
+  <body>
+    <form id="myForm">
+      <div class="form-container">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required /><br /><br />
+
+        <label for="surname">Surname:</label>
+        <input type="text" id="surname" name="surname" required /><br /><br />
+
+        <label for="gender">Gender:</label>
+        <input
+          type="radio"
+          name="gender"
+          value="male"
+          id="male"
+          required
+        /><label for="male">M</label>
+        <input
+          type="radio"
+          name="gender"
+          value="female"
+          id="female"
+          required
+        /><label for="female">F</label><br /><br />
+
+        <label for="Age">Age:</label>
+        <input type="number" id="Age" name="Age" required /><br /><br />
+
+        <select id="my-select" required>
+          <option value="" selected>Choose an occupation</option>
+          <option value="smith">Mechanic</option>
+          <option value="driver">Driver</option></select
+        ><br /><br />
+      </div>
+
+      <div class="extra-form-smith" style="display: none">
+        <label for="health">Traumas:</label>
+        <input type="radio" name="health" value="yes" id="traumas" /><label
+          for="yes"
+          >Yes</label
+        >
+        <input type="radio" name="health" value="no" id="notraumas" /><label
+          for="no"
+          >No</label
+        ><br /><br />
+
+        <label for="instrument">Personal tools:</label>
+        <input
+          type="radio"
+          name="instrument"
+          value="yes"
+          id="hasinstrument"
+        /><label for="yes">Yes</label>
+        <input
+          type="radio"
+          name="instrument"
+          value="no"
+          id="noinstrument"
+        /><label for="no">No</label><br /><br />
+      </div>
+
+      <div class="extra-form-driver" style="display: none">
+        <label for="addict">Addictions:</label>
+        <input type="radio" name="addict" value="yes" id="addicted" /><label
+          for="yes"
+          >Yes</label
+        >
+        <input type="radio" name="addict" value="no" id="notaddicted" /><label
+          for="no"
+          >No</label
+        ><br /><br />
+
+        <label for="car">Personal auto:</label>
+        <input type="radio" name="car" value="yes" id="hascar" /><label
+          for="yes"
+          >Yes</label
+        >
+        <input type="radio" name="car" value="no" id="nocar" /><label for="no"
+          >No</label
+        ><br /><br />
+      </div>
+      <button type="submit" id="submit">Save</button>
+      <!-- <button type="submit" onclick="submitForm()" id="submit">Submit</button> -->
+    </form>
+    <br /><br />
+    <!-- <button onclick="clearSelect()">Clear select</button> -->
+
+    <table
+      border="2"
+      bgcolor="#e6f7f6"
+      id="myTable"
+      style="position: absolute; top: 320px; left: 10px"
+    >
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Surname</th>
+          <th>Gender</th>
+          <th>Age</th>
+          <th>Occupation</th>
+          <th>Traumas</th>
+          <th>Personal tools</th>
+          <th>Addictions</th>
+          <th>Personal auto</th>
+          <th>Delete data</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Row 1, Column 1</td>
+          <td>Row 1, Column 2</td>
+          <td>Row 1, Column 3</td>
+          <td>Row 1, Column 4</td>
+          <td>Row 1, Column 5</td>
+          <td>Row 1, Column 6</td>
+          <td>Row 1, Column 7</td>
+          <td>Row 1, Column 8</td>
+          <td>Row 1, Column 9</td>
+          <td align="center">
+            <button style="background-color: #e0147d" onclick="deleteRow(this)">
+              Delete
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,3 @@
+# 05_Webclient_Entity_Manager
+
+This project is a client-side web application for managing entities through a user interface. The application uses object-oriented principles, including inheritance, to define classes with various properties. Users can create entities by filling out a form with fields corresponding to the properties of the chosen class. Upon saving, entities are created based on the selected subclass, stored in an array, and persisted in local storage. The entities are displayed in a table, and users can delete them, which removes them from the array, local storage, and the table. The data is preserved across page refreshes.
