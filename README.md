@@ -6,8 +6,14 @@ So if you don't want to click on the link (like **01_Game_bot** etc.) you can cl
 
 ## JS examples
 
-1. [**01_Game_bot**](https://haroldsp.github.io/project-showcases/01_Game_bot/) - a small guess-a-number game in a browser.
-2. [**02_To-Do-List**](https://haroldsp.github.io/project-showcases/02_To-Do-List/) - a simple To-Do-List demonstarting the work with localStorage.
+1. [**01_Game_bot**](https://haroldsp.github.io/project-showcases/01_Game_bot/)
+
+   A small guess-a-number game in a browser.
+
+2. [**02_To-Do-List**](https://haroldsp.github.io/project-showcases/02_To-Do-List/)
+
+   A simple To-Do-List demonstarting the work with localStorage.
+
 3. [**03_Layout_Price_Calculator**](https://haroldsp.github.io/project-showcases/03_Layout_Price_Calculator/):star:
    <details>
    <summary>А straightforward layout price calculator showcasing fundamental concepts of modern JavaScript practices.</summary>
@@ -48,3 +54,7 @@ So if you don't want to click on the link (like **01_Game_bot** etc.) you can cl
    <summary>A landing page - super-hero picker. Desk-top version only.</summary>
    This repository features a dynamic landing page where users can explore and select hero cards. The project leverages a local database file for efficient data management. Smooth animations and event listeners enhance user interaction, while asynchronous functions ensure seamless data fetching. The use of Webpack optimizes code organization and project build
    </details>
+
+9. [**09_Currency_converter_api**](https://haroldsp.github.io/project-showcases/09_Currency_converter_api)
+
+   A currency converter using an API, involving various features like event listeners and asynchronous functions.
