@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: black;
+  overflow: hidden;
+  overflow-y: auto;
+  position: relative;
+}
+
+#title {
+  margin: 0;
+  font-family: 'Righteous', sans-serif;
+  color: rgba(255,255,255,0.98);
+  text-transform: uppercase;
+  font-size: 2.4rem;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#selects {
+  display: flexbox;
+  width: 100%;
+  margin: auto;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 150%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.98);
+  position: absolute;
+  top: 10%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+}
+
+.label {
+  margin-left: 50px;
+}
+
+#species-select {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 150%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  background-color: rgba(255, 255, 255, 0.2);
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 500;
+  padding: 5px;
+  transition: all 0.3s ease-in-out;
+
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#species-select + label {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#species-select option {
+  background-color: rgba(73, 69, 69, 0.7);
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 500;
+  padding: 10px;
+  transition: all 0.3s ease-in-out;
+
+  display: block;
+}
+
+#gender-select {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 150%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  background-color: rgba(255, 255, 255, 0.2);
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 500;
+  padding: 5px;
+  transition: all 0.3s ease-in-out;
+
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#gender-select + label {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#gender-select option {
+  background-color: rgba(73, 69, 69, 0.7);
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 500;
+  padding: 10px;
+  transition: all 0.3s ease-in-out;
+
+  display: block;
+}
+
+#movie-select {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 150%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  background-color: rgba(255, 255, 255, 0.2);
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 500;
+  padding: 5px;
+  transition: all 0.3s ease-in-out;
+
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#movie-select + label {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#movie-select option {
+  background-color: rgba(73, 69, 69, 0.7);
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 500;
+  padding: 10px;
+  transition: all 0.3s ease-in-out;
+
+  display: block;
+}
+
+.card-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 20px;
+
+  transform: translate(-50%, -50%);
+  width: 450px;
+  height: 700px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.card {
+  position: relative;
+  width: 450px;
+  height: 700px;
+}
+
+.card-front,
+.card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  transition: transform 0.6s ease-in-out;
+}
+
+.card-front {
+  z-index: 2;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-image {
+  /* background-image: url('../dbimage/97d1d9f934a350cee765c5ac1a466605.jpg'); */
+  background-position: center;
+  background-size: cover;
+  height: 70%;
+  width: 70%;
+  border-radius: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.255)
+}
+
+.card-back {
+  transform: rotateY(180deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.card-back-content {
+  
+  color: white;
+  text-align: center;
+}
+
+.card:hover .card-front {
+  transform: rotateY(-180deg);
+}
+
+.card:hover .card-back {
+  transform: rotateY(0deg);
+}
+
+
+h1{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-family: 'Righteous', sans-serif;
+  color: rgba(255,255,255,0.98);
+  text-transform: uppercase;
+  font-size: 2.4rem;
+}
+
+p {
+  margin: 0;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 150%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.swiper {
+  overflow: visible;
+  top: 52%;
+  transform: translate3d(0,0,0); /*enabling hardware accel*/
+}
+
+.swiper-pagination-bullet {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 12px;
+  color: #000;
+  font-family: 'Lato', sans-serif;
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.2);
+  top: 100%;
+  position: relative;
+  bottom: -400px;
+}
+
+.swiper-pagination-bullet-active {
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  background: rgba(0, 122, 255, 0.3);
+}

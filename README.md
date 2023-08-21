@@ -39,6 +39,12 @@ So if you don't want to click on the link (like **01_Game_bot** etc.) you can cl
 
 7. [**07_Landing_page_module_structure**](https://haroldsp.github.io/project-showcases/07_Landing_page_module_structure/dist):star:
    <details>
-   <summary>A modern landing page built using Webpack.</summary>
+   <summary>A landing page - interior design studio. Built using Webpack.</summary>
    Showcasing a variety of web development techniques. The project demonstrates effective usage of modal windows, event delegation, sliders (both custom and Swiper-based), form validation with regular expressions, and diverse animations. All of these features come together to create an engaging and interactive user experience.
+   </details>
+
+8. [**08_Heroes_cards**](https://haroldsp.github.io/project-showcases/08_Heroes_cards/dist):star:
+   <details>
+   <summary>A landing page - super-hero picker. Desk-top version only.</summary>
+   This repository features a dynamic landing page where users can explore and select hero cards. The project leverages a local database file for efficient data management. Smooth animations and event listeners enhance user interaction, while asynchronous functions ensure seamless data fetching. The use of Webpack optimizes code organization and project build
    </details>

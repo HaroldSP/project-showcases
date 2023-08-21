@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <script src="./js/main.js" defer></script>
+  <link rel="stylesheet" href="./css/style.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <div id="title">Choose your hero!</div>
+  <div id="selects">
+    <label for="species-select" class="label">Select species:</label>
+    <select id="species-select">
+      <option selected value="">All</option>
+    </select>
+    <label for="gender-select" class="label">Select gender:</label>
+    <select id="gender-select">
+      <option selected value="">All</option>
+    </select>
+    <label for="movie-select" class="label">Select movie:</label>
+    <select id="movie-select">
+      <option selected value="">All</option>
+    </select>
+  </div>
+
+  <div id="macro-card-container" class="swiper">
+    <div class="swiper-wrapper"></div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+</body>
+
+</html>
