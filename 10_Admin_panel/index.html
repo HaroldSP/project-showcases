@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="./dist/main.js" defer></script>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>JSON-server</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <!-- <a class="navbar-brand" href="/">JSON-Server</a> -->
+            </div>
+        </nav>
+    </header>
+    <main>
+        <p style="font-size: 18px; font-weight: bold;  text-align: center; margin-bottom: 8px;">Admin Panel application powered by JSON-Server and server-side queries</p>
+        <p style="font-size: 18px; font-weight: bold;  text-align: center;">JSON needed to experience all features</p>
+        <p style="font-size: 14px; text-align: center; margin-bottom: 4px;">npm install -g json-server</p>
+        <p style="font-size: 14px; text-align: center; margin-bottom: 4px;">json-server --watch db/db.json --port=4545</p>
+        <p style="font-size: 14px; text-align: center;">Double check paths</p>
+        <section class="section-form">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-12 col-lg-4 col-md-6 col-sm-8 offset-0 offset-lg-4 offset-md-3 offset-sm-2">
+                        <form>
+                            <div class="mb-3">
+                                <label for="form-name" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="form-name" required
+                                    aria-describedby="emailHelp">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="form-email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="form-email" required>
+                            </div>
+
+                            <div class="form-check form-switch mb-3">
+                                <input class="form-check-input" type="checkbox" role="switch" id="form-children">
+                                <label class="form-check-label" for="form-children">Do the respondent's children include any?</label>
+                            </div>
+
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-success" type="submit">Save</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-table">
+            <div class="container">
+                <div class="row mb-3 d-flex justify-content-between">
+                    <div class="col col-12 col-lg-4 col-md-6 mb-3 mb-lg-0">
+                        <div class="input-group flex-nowrap">
+                            <span class="input-group-text" id="search-input-group">
+                                <i class="bi-search"></i>
+                            </span>
+                            <input type="text" class="form-control" placeholder="Search for a name" aria-label="Поиск"
+                                id="search-input" aria-describedby="search-input-group">
+                        </div>
+                    </div>
+                    <div class="col col-12 col-lg-4 col-md-6 d-flex justify-content-end">
+                        <div class="btn-group" role="group" aria-label="Basic example">
+                            <button type="button" class="btn btn-info" id="btn-isChildren">With children</button>
+                            <button type="button" class="btn btn-info" id="btn-isPermissions">With access</button>
+                            <button type="button" class="btn btn-info" id="btn-isAll">All</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead class="table-dark">
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Name</th>
+                                <th scope="col">Email</th>
+                                <th scope="col" id="sort-is-children">Children</th>
+                                <th scope="col">Access</th>
+                                <th scope="col">Edit / Delete</th>
+                            </tr>
+                        </thead>
+                        <tbody id="table-body">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "name": "1",
+      "email": "g@g",
+      "children": false,
+      "permissions": true,
+      "id": 1
+    },
+    {
+      "name": "2",
+      "email": "g@g",
+      "children": true,
+      "permissions": false,
+      "id": 2
+    },
+    {
+      "name": "3",
+      "email": "g@g",
+      "children": false,
+      "permissions": false,
+      "id": 3
+    },
+    {
+      "name": "14",
+      "email": "g@g",
+      "children": false,
+      "permissions": false,
+      "id": 4
+    }
+  ]
+}
