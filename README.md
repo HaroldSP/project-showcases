@@ -78,3 +78,9 @@ So if you don't want to click on the link (like **01_Game_bot** etc.) you can cl
     ![image](https://github.com/HaroldSP/project-showcases/assets/55085987/5dd7aead-e23e-46ae-bc85-9916ba6675bc)
 
     </details>
+
+11. [**11_Landing_page_summary**](https://haroldsp.github.io/project-showcases/11_Landing_page_summary/dist):star:
+    <details>
+    <summary>A responsive landing page with various interactive elements.</summary>
+    Users can request a call through a modal window, explore service prices, FAQs, and contact information. The page includes a dynamic slider and a carousel for services, each triggering a modal window for additional details. The FAQ section is organized as an accordion. Moreover, a scroll-to-top arrow appears when reaching the "Our Services" section. The modal forms feature AJAX-based submission, complete with validations for phone numbers and name inputs. Please note that JSONPlaceholder is used to simulate server functionality due to GitHub Pages restrictions.
+    </details>
