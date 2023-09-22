@@ -84,3 +84,11 @@ So if you don't want to click on the link (like **01_Game_bot** etc.) you can cl
     <summary>A responsive landing page with various interactive elements.</summary>
     Users can request a call through a modal window, explore service prices, FAQs, and contact information. The page includes a dynamic slider and a carousel for services, each triggering a modal window for additional details. The FAQ section is organized as an accordion. Moreover, a scroll-to-top arrow appears when reaching the "Our Services" section. The modal forms feature AJAX-based submission, complete with validations for phone numbers and name inputs. Please note that JSONPlaceholder is used to simulate server functionality due to GitHub Pages restrictions.
     </details>
+
+## Vue examples
+
+1. [**12_Battle_game**](https://haroldsp.github.io/project-showcases/12_Battle_game)
+    <details>
+    <summary>A text-based battle game showcasing the fundamental concepts of Vue.js.</summary>
+    The code represents a simple text-based battle game implemented using Vue.js. It showcases Vue's core features, including data binding to update player and monster health bars, computed properties for dynamic UI updates like special attack availability, and watchers to monitor health changes and determine the winner. This project serves as an illustrative example of Vue.js for building interactive web applications.
+    </details>
