@@ -2,7 +2,9 @@
 
 All links lead to the https://haroldsp.github.io/project-showcases/ and then a listed folder.
 
-So if you don't want to click on the link (like **01_Game_bot** etc.) you can click on the GitHub-pages tab on the right, and then manually add the folder name to the address line of your browser. 03_Layout_calculator
+So if you don't want to click on the link (like **01_Game_bot** etc.) you can click on the GitHub-pages tab on the right, and then manually add the folder name to the address line of your browser. 03_Layout_calculator.
+
+Press paragraphs marked with "▶" to see the details.
 
 ## JS examples
 
@@ -91,4 +93,16 @@ So if you don't want to click on the link (like **01_Game_bot** etc.) you can cl
     <details>
     <summary>A text-based battle game showcasing the fundamental concepts of Vue.js.</summary>
     The code represents a simple text-based battle game implemented using Vue.js. It showcases Vue's core features, including data binding to update player and monster health bars, computed properties for dynamic UI updates like special attack availability, and watchers to monitor health changes and determine the winner. This project serves as an illustrative example of Vue.js for building interactive web applications.
+    </details>
+
+2. [**13_Manage_resources**](https://haroldsp.github.io/project-showcases/13_Manage_resources/dist)
+    <details>
+    <summary>A simple landing page showcasing the advanced concepts of Vue.js.</summary>
+    The code represents a simple landing page implemented using Vue.js. It demonstrates various advanced features of Vue.js, such as Vue CLI integration, component usage, component communication, dynamic components, slot usage, and an improved folder structure. This project serves as a comprehensive example of how Vue.js can be utilized to create interactive web applications with organized and efficient code.  <br />
+    <br />
+    In case you want to try the code by yourself:  
+
+    `npm i` install dependencies.
+    `npm run serve` to display the project in a browser.
+
     </details>
