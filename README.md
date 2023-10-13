@@ -98,11 +98,25 @@ Press paragraphs marked with "▶" to see the details.
 2. [**13_Manage_resources**](https://haroldsp.github.io/project-showcases/13_Manage_resources/dist)
     <details>
     <summary>A simple landing page showcasing the advanced concepts of Vue.js.</summary>
-    The code represents a simple landing page implemented using Vue.js. It demonstrates various advanced features of Vue.js, such as Vue CLI integration, component usage, component communication, dynamic components, slot usage, and an improved folder structure. This project serves as a comprehensive example of how Vue.js can be utilized to create interactive web applications with organized and efficient code.  <br />
+    <div class="justified-text">
+    The code represents a simple landing page implemented using Vue.js. It demonstrates various advanced features of Vue.js, such as Vue CLI integration, component usage, component communication, dynamic components, slot usage, and an improved folder structure. This project serves as a comprehensive example of how Vue.js can be utilized to create interactive web applications with organized and efficient code. </div><br />
     <br />
     In case you want to try the code by yourself:  
 
-    `npm i` install dependencies.
+    `npm i` install dependencies.<br />
     `npm run serve` to display the project in a browser.
+
+3. [**14_Find_a_Coach**](https://haroldsp.github.io/project-showcases/14_Find_a_Coach/dist):star:
+    <details>
+    <summary>Vue 3 Project Demonstration</summary>
+    The "Find A Coach" repo showcases Vue 3's core features. Using Vue Router, it highlights dynamic and child routing, navigational guards, and asynchronous component loading. The project also utilizes Vuex for state management and has a clear folder structure for better maintainability. It's a practical demonstration of Vue 3's capabilities in a structured application context.<br />
+    <br />
+    In case you want to try the code by yourself:
+
+    Run `npm i` to install dependencies.<br />
+    Run `npm run serve` to display the project in a browser.<br />
+    <br />
+    Due to Github Pages' architectural structure, the project starts on a 404 page.<br /> 
+    I won't go into details here as to why this happens. Just click on the home page, or visit the same project on Firebase where SPAs are set up correctly: [link](https://vue-test-7a3ca.web.app/coaches).
 
     </details>
